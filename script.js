@@ -1,91 +1,91 @@
 const perguntas = [
     {
-        pergunta: "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
+        pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
         respostas: [
-            "let",
-            "var",
-            "const"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual método é usado para imprimir uma mensagem no console?",
-        respostas: [
-            "print()",
-            "log()",
-            "console.log()"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como você escreve um comentário de uma linha em JavaScript?",
-        respostas: [
-            "// Este é um comentário",
-            "' Este é um comentário",
-            "* Este é um comentário *"
+            "A) Retorna o tipo de dado de uma variável",
+            "B) Verifica se uma variável está definida",
+            "C) Concatena duas strings"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
+        pergunta: "Qual é a maneira correta de se declarar uma variável em JavaScript?",
         respostas: [
-            "==",
-            "===",
-            "="
+            "A) let myVar = 10;",
+            "B) var myVar = 10;",
+            "C) const myVar = 10;"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que é um closure em JavaScript?",
+        respostas: [
+            "A) Uma função que não tem acesso ao escopo externo",
+            "B) Um bloco de código condicional",
+            "C) Uma função que tem acesso ao escopo externo, mesmo após ser retornada"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que o método 'forEach()' faz em um array JavaScript?",
+        respostas: [
+            "A) Retorna o primeiro elemento do array",
+            "B) Itera sobre cada elemento do array",
+            "C) Remove o último elemento do array"
         ],
         correta: 1
     },
     {
-        pergunta: "Qual função é usada para converter uma string em um número inteiro em JavaScript?",
+        pergunta: "Qual é o resultado da expressão '2' + 2 em JavaScript?",
         respostas: [
-            "parseInt()",
-            "stringToInt()",
-            "toInteger()"
+            "A) 4",
+            "B) '22'",
+            "C) 22"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "O que o operador '===' faz em JavaScript?",
+        respostas: [
+            "A) Verifica se dois valores são iguais em valor e tipo",
+            "B) Verifica se dois valores são iguais em valor",
+            "C) Verifica se duas variáveis estão definidas"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é a sintaxe correta para um loop 'for' em JavaScript?",
+        pergunta: "Qual é a função do método 'parseInt()' em JavaScript?",
         respostas: [
-            "for (i = 0; i < 5; i++)",
-            "loop (i = 0; i < 5; i++)",
-            "for (i < 5; i++)"
+            "A) Retorna a parte fracionária de um número",
+            "B) Converte uma string em um número inteiro",
+            "C) Retorna o número de caracteres em uma string"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "O que é o DOM em JavaScript?",
+        respostas: [
+            "A) Document Object Model - Uma representação estruturada de um documento HTML",
+            "B) Uma função interna do JavaScript para criar objetos",
+            "C) Um método para declarar variáveis locais"
         ],
         correta: 0
     },
     {
-        pergunta: "Como você declara uma função em JavaScript?",
+        pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
         respostas: [
-            "function: minhaFuncao()",
-            "função minhaFuncao()",
-            "function minhaFuncao()"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-        respostas: [
-            "push()",
-            "append()",
-            "addToEnd()"
+            "A) '==' compara apenas os valores, enquanto '===' compara os valores e os tipos",
+            "B) '==' compara os valores e os tipos, enquanto '===' compara apenas os valores",
+            "C) Ambos os operadores fazem a mesma coisa"
         ],
         correta: 0
     },
     {
-        pergunta: "Como você verifica o tipo de uma variável em JavaScript?",
+        pergunta: "O que é uma expressão regular em JavaScript?",
         respostas: [
-            "typeof",
-            "typeOf",
-            "type()"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a função usada para parar a execução de um loop em JavaScript?",
-        respostas: [
-            "stop()",
-            "halt()",
-            "break()"
+            "A) Uma forma de expressar operações matemáticas",
+            "B) Um método para realizar operações assíncronas",
+            "C) Um objeto que descreve um padrão de caracteres"
         ],
         correta: 2
     }
